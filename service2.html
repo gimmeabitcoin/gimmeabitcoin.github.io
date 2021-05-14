@@ -163,20 +163,14 @@
 			<li id="li1">SafeMove</li>
 			<li><a href="homepage.html">Home Page</a></li>
 			<li><a href="serviceList.html"  id="prdt">Services</a></li>
-				<ul id="layer2">
-					<li><a href="#">iCar 1th gen</a></li>
-					<li><a href="#">iCar 2th gen</a></li>
-					<li><a href="#">iCar 3th gen</a></li>
-					<li><a href="#">iCar 4th gen</a></li>
-				</ul>
-				<li><a href="AboutUs.html">About Us</a></li>
+			<li><a href="AboutUs.html">About Us</a></li>
 			<li id="login"><a href="login.html">Login/Register</a></li>
 		
 		</ul>
 	</div>
 	
 	
-	<h1>Historical average house prices in London (breakdown by boroughs)</h1>
+	<h1>Historical average house prices in London</h1>
     <div id="slider">
       <label for="year">Slide to change year:</label>
       <input type="range" min=1995 max=2017 step=1 id="year" value=2017 oninput="selected_year.value = year.value">
@@ -348,7 +342,6 @@
             .attr("id", function(d) { return d.properties.name; })
             .attr("d", path)
             .on("click", clicked);
-            // .on("click", clicked);
 
 
           areas
